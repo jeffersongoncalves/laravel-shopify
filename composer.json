@@ -3,6 +3,8 @@
     "description": "Shopify Admin API integration for Laravel",
     "keywords": [
         "laravel",
+        "shopify",
+        "ecommerce",
         "laravel-shopify"
     ],
     "homepage": "https://github.com/jeffersongoncalves/laravel-shopify",
@@ -27,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jeffersongoncalves\\Shopify\\": "src/"
+            "JeffersonGoncalves\\Shopify\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jeffersongoncalves\\Shopify\\Tests\\": "tests/"
+            "JeffersonGoncalves\\Shopify\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -52,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jeffersongoncalves\\Shopify\\ShopifyServiceProvider"
+                "JeffersonGoncalves\\Shopify\\ShopifyServiceProvider"
             ],
             "aliases": {
-                "Shopify": "Jeffersongoncalves\\Shopify\\Facades\\Shopify"
+                "Shopify": "JeffersonGoncalves\\Shopify\\Facades\\Shopify"
             }
         }
     },
